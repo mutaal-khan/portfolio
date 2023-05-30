@@ -1,0 +1,45 @@
+#bg_design {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* glass */
+#glass_effect {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    /* From https://css.glass */
+    background: rgba(20, 25, 30, 0.5);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}
+
+/* background design header */
+#bg_design #bgd_header {
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+#bg_design #bgd_header div {
+    background: radial-gradient(rgb(150, 0, 255) 10%, rgb(7, 7, 7) 80%);
+    opacity: 70%;
+    position: absolute;
+    border-radius: 100%;
+}
+#bg_design #bgd_header div:first-child {
+    height: 400px;
+    width: 400px;
+    top: 200px;
+    left: 300px;
+}
+#bg_design #bgd_header div:last-child {
+    height: 800px;
+    width: 800px;
+    top: -300px;
+    right: -300px;
+}
