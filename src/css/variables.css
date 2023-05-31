@@ -1,0 +1,22 @@
+
+body {
+    --accent-color: rgb(0, 200, 255);
+    /* --accent-color: rgb(255, 200, 0);
+    --accent-color: rgb(255, 0, 50);
+    --accent-color: rgb(0, 255, 100);
+    --accent-color: rgb(150, 0, 255);
+    --accent-color: rgb(255, 0, 200); */
+
+
+    --dark-color: rgb(20, 25, 30);
+    --dark-color-3: rgba(20, 25, 30);
+
+    --light-color: rgb(220, 225, 230);
+
+
+    --theme-1: rgb(0, 200, 255);
+    --theme-2: rgb(255, 200, 0);
+    --theme-3: rgb(0, 255, 100);
+    --theme-4: rgb(150, 0, 255);
+    --theme-5: rgb(255, 0, 50);
+}

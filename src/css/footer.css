@@ -1,0 +1,33 @@
+footer {
+    height: 200px;
+    width: 100%;
+    margin-top: 200px;
+    border-top: 1px solid rgb(7, 7, 7);
+    background: rgba(7, 7, 7, 0.3)
+}
+
+.footer_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_container article {
+    color: rgb(215, 215, 215);
+    text-align: center;
+}
+
+.footer_container > article > h1 {
+    font-weight: normal;
+    font-size: 12pt;
+}
+.footer_container > article > h2 {
+    font-weight: normal;
+    font-size: 16pt;
+}
+.footer_container > article > h3 {
+    font-weight: normal;
+    font-size: 10pt;
+}

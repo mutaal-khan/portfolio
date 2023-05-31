@@ -1,0 +1,16 @@
+
+
+/* Accent */
+.bgAccent {background: var(--accent-color) !important;}
+.textAccent {color: var(--accent-color) !important;}
+.iconAccent > g {fill: var(--accent-color) !important;}
+.iconAccent > path {fill: var(--accent-color) !important;}
+
+
+
+/* Dark */
+.bgDark {background: var(--dark-color) !important;}
+.textDark {color: var(--dark-color) !important;}
+.iconDark > g {fill: var(--dark-color) !important;}
+.iconDark > path {fill: var(--dark-color) !important;}
+
