@@ -1,0 +1,128 @@
+
+/* Nav */
+nav {
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid var(--dark-color-level-3);
+    color: rgb(225, 225, 225);
+    position: relative;
+}
+
+nav .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container div {
+    margin: 0px 10px;
+}
+nav .container h2 {
+    font-size: 12pt;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+nav .container p {
+    font-size: 8pt;
+}
+
+nav .container div:last-child {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+#design_button {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#design_button div {
+    position: absolute;
+    height: 2px;
+    width: 20px;
+}
+#design_button div:first-child {
+    transform: rotate(90deg);
+}
+
+#label {
+    position: absolute;
+    top: 120px;
+    right: -45px;
+    transform: rotate(-90deg);
+    opacity: 80%;
+}
+
+#label p {
+    font-size: 8pt;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-items: center;
+}
+#label p span:last-child { 
+    padding-bottom: 3px;
+}
+
+/* Theme Container */
+
+#theme_container {
+    height: 30px;
+    width: 150px;
+    background: var(--accent-color);
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2.5px;
+    border: 2px solid black;
+    z-index: 120;
+    display: none;
+}
+
+#theme_container.active {
+    display: flex;
+}
+#theme_container > input {
+    display: none;
+}
+#theme_container > label {
+    height: 24px;
+    width: 24px;
+    background: black;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#theme_container > label:hover {
+    background: blue;
+}
+
+
+#theme_container #theme_1 {
+    background: var(--theme-1);
+}
+#theme_container #theme_2 {
+    background: var(--theme-2);
+}
+#theme_container #theme_3 {
+    background: var(--theme-3);
+}
+#theme_container #theme_4 {
+    background: var(--theme-4);
+}
+#theme_container #theme_5 {
+    background: var(--theme-5);
+}

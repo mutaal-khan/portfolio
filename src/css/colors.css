@@ -1,0 +1,66 @@
+
+
+/* Accent */
+.bgAccent {background: var(--accent) !important;}
+.textAccent {color: var(--accent) !important;}
+.iconAccent > g {fill: var(--accent) !important;}
+.iconAccent > path {fill: var(--accent) !important;}
+
+
+
+/* Dark */
+.bgDark {background: var(--dark) !important;}
+.textDark {color: var(--dark) !important;}
+.iconDark > g {fill: var(--dark) !important;}
+.iconDark > path {fill: var(--dark) !important;}
+
+.bgDark-1 {background: var(--dark-1) !important;}
+.textDark-1 {color: var(--dark-1) !important;}
+.iconDark-1 > g {fill: var(--dark-1) !important;}
+.iconDark-1 > path {fill: var(--dark-1) !important;}
+
+.bgDark-2 {background: var(--dark-2) !important;}
+.textDark-2 {color: var(--dark-2) !important;}
+.iconDark-2 > g {fill: var(--dark-2) !important;}
+.iconDark-2 > path {fill: var(--dark-2) !important;}
+
+
+.bgDark-3 {background: var(--dark-3) !important;}
+.textDark-3 {color: var(--dark-3) !important;}
+.iconDark-3 > g {fill: var(--dark-3) !important;}
+.iconDark-3 > path {fill: var(--dark-3) !important;}
+
+
+
+
+
+/* light */
+.bgLight {background: var(--light) !important;}
+.textLight {color: var(--light) !important;}
+.iconLight > g {fill: var(--light) !important;}
+.iconLight > path {fill: var(--light) !important;}
+
+.bgLight-1 {background: var(--light-1) !important;}
+.textLight-1 {color: var(--light-1) !important;}
+.iconLight-1 > g {fill: var(--light-1) !important;}
+.iconLight-1 > path {fill: var(--light-1) !important;}
+
+.bgLight-2 {background: var(--light-2) !important;}
+.textLight-2 {color: var(--light-2) !important;}
+.iconLight-2 > g {fill: var(--light-2) !important;}
+.iconLight-2 > path {fill: var(--light-2) !important;}
+
+.bgLight-3 {background: var(--light-3) !important;}
+.textLight-3 {color: var(--light-3) !important;}
+.iconLight-3 > g {fill: var(--light-3) !important;}
+.iconLight-3 > path {fill: var(--light-3) !important;}
+
+.bgLight-4 {background: var(--light-1) !important;}
+.textLight-4 {color: var(--light-1) !important;}
+.iconLight-4 > g {fill: var(--light-1) !important;}
+.iconLight-4 > path {fill: var(--light-1) !important;}
+
+
+
+
+
