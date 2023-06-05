@@ -1,0 +1,110 @@
+/* ABOUT ME COMPONENTS */
+
+/* #CPN - cpn_lpt */
+
+.cpn_lpt {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.cpn_lpt .lpt_screen {
+    height: 160px;
+    width: 250px;
+    background: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 5px;
+}
+.cpn_lpt .lpt_keyboard {
+    height: 5px;
+    width: 360px;
+    background: black;
+    border-radius: 2px 2px 25px 25px;
+}
+
+.lpt_screen .lpt_app {
+    width: 250px;
+    height: 160px;
+    border-radius: 2.5px;
+    background: rgb(10, 10, 10);
+}
+
+.lpt_app .lpt_app_bar {
+    height: 10px;
+    width: 100%;
+    border-radius: 2.5px 2.5px 0px 0px;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+}
+.lpt_app_bar > div {
+    height: 3px;
+    width: 3px;
+    border-radius: 5px;
+}
+.lpt_app_bar > div:first-child {
+    background: rgba(255, 0, 0, 0.8);
+    margin-left: 5px;
+}
+.lpt_app_bar > div:nth-child(2) {
+    background: rgba(255, 255, 0, 0.8);
+}
+.lpt_app_bar > div:last-child {
+    background: rgba(0, 128, 0, 0.9);
+}
+
+.lpt_app_window {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#lpt_s1,
+#lpt_s2,
+#lpt_s3 {
+    height: 110px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:  0px 5px;
+    flex-wrap: wrap;
+    /* background: green; */
+}
+
+
+#lpt_s1 {
+    margin-top: 20px;
+}
+#lpt_s2 {
+    margin: 30px 0px;
+}
+#lpt_s3 {
+    color:white;
+}
+
+#lpt_s1 div, 
+#lpt_s2 div, 
+#lpt_s3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 2.5px;
+    background: rgb(0, 0, 0);
+}
