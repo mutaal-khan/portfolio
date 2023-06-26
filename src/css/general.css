@@ -89,7 +89,7 @@
 .alphaLink:visited,
 .alphaLink:hover,
 .alphaLink:active {
-    text-decoration: solid !important;
+    text-decoration: none !important;
     color: inherit;
     display: block;
 }
