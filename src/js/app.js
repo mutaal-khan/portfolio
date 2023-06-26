@@ -61,7 +61,7 @@ var slideUp = {
     distance: '25%',
     origin: 'bottom',
     opacity: 0.7,
-    reset: true,
+    reset: false,
     duartion: 300,
 };
 
