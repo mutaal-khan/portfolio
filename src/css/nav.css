@@ -1,0 +1,81 @@
+
+/* Nav */
+nav {
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid var(--dark-color-level-3);
+    color: rgb(225, 225, 225);
+    position: relative;
+}
+
+nav .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container div {
+    margin: 0px 20px;
+}
+nav .container div:first-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+nav .container h2 {
+    font-size: 12pt;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+nav .container p {
+    font-size: 8pt;
+}
+
+nav .container div:last-child {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+#design_button {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#design_button div {
+    position: absolute;
+    height: 2px;
+    width: 20px;
+}
+#design_button div:first-child {
+    transform: rotate(90deg);
+}
+
+#label {
+    position: absolute;
+    top: 120px;
+    right: -25px;
+    transform: rotate(-90deg);
+    opacity: 80%;
+}
+
+#label p {
+    font-size: 8pt;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-items: center;
+}
+#label p span:last-child { 
+    padding-bottom: 3px;
+}
