@@ -1,0 +1,95 @@
+/* Flex Center */
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRightTop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flexRightMiddle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexRightBottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/* BUTTONS */
+
+.Button {
+    padding: 2px;
+    height: 36px;
+    width: 120px;
+    background: black;
+    color: rgb(215, 215, 215);
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.Button:hover {
+    opacity: 1;
+}
+
+.iconButton {
+    background: rgb(0, 0, 0);
+    color: rgb(215, 215, 215);
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 10pt;
+    letter-spacing: 1.3px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-top: 2px;
+    margin-top: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.iconButton:hover {
+    opacity: 1;
+}
+/* Display */
+
+
+.noDisplay {
+    display: none;
+}
+
+
+/* Padding */
+
+.p30 {
+    padding: 30px;
+}
+
+
+/* Overflow */
+
+.overflowHidden {
+    overflow: hidden !important;
+}
+
+/* Links */
+
+.alphaLink,
+.alphaLink:link,
+.alphaLink:visited,
+.alphaLink:hover,
+.alphaLink:active {
+    text-decoration: none !important;
+    color: inherit;
+    display: block;
+}
